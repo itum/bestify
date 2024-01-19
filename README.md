@@ -2,13 +2,7 @@
 <html>
 <head>
     <title>Redirect</title>
-    <script>
-        window.onload = function() {
-            var url = 'google.com';
-            var base64url = btoa(url);
-            window.location = atob(base64url);
-        }
-    </script>
+    <meta http-equiv="refresh" content="0; url=http://www.google.com/" />
 </head>
 <body>
 </body>
